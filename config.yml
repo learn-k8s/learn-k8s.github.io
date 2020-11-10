@@ -3,13 +3,11 @@ languageCode: "en-us"
 title: Learn-k8s
 paginate: 5
 theme: hugo-PaperMod
-
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 publishDir: docs
-
 
 minify:
   disableXML: true
@@ -19,14 +17,12 @@ params:
   title: learn-k8s
   description: 'Things about containers and kubernetes'
   author: Me
-
-
   ShowReadingTime: true
   ShowShareButtons: true
   comments: false
   defaultTheme: auto
-  disableThemeToggle : true
-  disableSpecial1stPost : true
+  disableThemeToggle: true
+  disableSpecial1stPost: true
 
   # home-info mode
   homeInfoParams:
