@@ -480,7 +480,7 @@ docker stop $(docker ps -qa)
 docker rm $(docker ps -qa)
 ```
 
-### Method 2# Using alpine as base image
+## Method 2# Using alpine as base image
 
 Let's create file called `Dockerfile.alpine` with following content
 
@@ -555,7 +555,7 @@ But wait there is more!
 
 You can even reduce more using "distroless" images build by google
 
-### Method 3# Using distroless as base image
+## Method 3# Using distroless as base image
 
 You can learn more about distroless from [this](https://github.com/GoogleContainerTools/distroless) page
 
@@ -607,7 +607,7 @@ TIP: Show this demo in your company .
 Now run app and see if its working or not.
 
 
-#### Reference:
+### Reference:
 - https://docs.docker.com/
 - https://dev.to/
 - https://luminousmen.com/
