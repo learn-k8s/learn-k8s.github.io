@@ -1,0 +1,37 @@
+baseURL: 'https://learn-k8s.github.io/'
+languageCode: "en-us"
+title: Learn-k8s
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: learn-k8s
+  description: 'Things about containers and kubernetes'
+  author: Me
+
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle : true
+  disableSpecial1stPost : true
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: 'https://github.com/rahulinux'
