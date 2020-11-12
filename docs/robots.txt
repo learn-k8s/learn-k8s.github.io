@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: https://learn-k8s.github.io/sitemap.xml

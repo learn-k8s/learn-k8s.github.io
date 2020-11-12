@@ -19,7 +19,7 @@ params:
   author: Me
   ShowReadingTime: true
   ShowShareButtons: true
-  comments: false
+  comments: true
   defaultTheme: auto
   disableThemeToggle: true
   disableSpecial1stPost: true
